@@ -5,3 +5,10 @@ The dataset used in this project was obtained from Kaggle.
 The original dataset is not included in this repository.
 
 Download the dataset from Kaggle and place the dataset file in this folder before running the notebook.
+
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("tobiasbueck/multilingual-customer-support-tickets")
+
+print("Path to dataset files:", path)
